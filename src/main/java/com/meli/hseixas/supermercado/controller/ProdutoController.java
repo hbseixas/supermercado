@@ -40,7 +40,7 @@ public class ProdutoController {
     }
 
     @DeleteMapping("/{id}")
-    public void excluirContato(@PathVariable Long id) {
+    public void excluirProduto(@PathVariable Long id) {
         produtoService.excluirProduto(id);
     }
 
